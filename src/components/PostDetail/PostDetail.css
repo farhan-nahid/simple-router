@@ -1,0 +1,14 @@
+.post {
+  width: 450px;
+  margin: 0 auto;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 94vh;
+}
+
+.post h3 {
+  margin: 15px 0;
+}

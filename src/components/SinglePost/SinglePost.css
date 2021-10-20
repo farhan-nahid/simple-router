@@ -1,0 +1,20 @@
+.single__post {
+  border: 3px solid coral;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.single__post h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.single__post h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.single__post p {
+  margin-bottom: 15px;
+}

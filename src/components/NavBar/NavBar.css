@@ -1,0 +1,35 @@
+nav {
+  height: 6vh;
+  background-color: lavender;
+}
+
+nav ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+nav ul li:nth-last-child() {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: teal;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.selected {
+  color: red;
+  font-size: 800;
+  background-color: rgba(0, 128, 128, 0.349);
+  border-radius: 5px;
+}
